@@ -12,11 +12,12 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/photos/1.JPG'
+import image2 from '@/images/photos/4.PNG'
+import image3 from '@/images/photos/6.jpg'
+import image4 from '@/images/photos/7.jpg'
+import image5 from '@/images/photos/12.jpg'
+import image6 from '@/images/photos/8.jpg'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
@@ -94,7 +95,7 @@ function Article({ article }) {
         {formatDate(article.date)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
+      <Card.Cta>Lire l'article</Card.Cta>
     </Card>
   )
 }
@@ -137,87 +138,87 @@ function Newsletter() {
 }
 
 function Resume() {
-  let resume = [
-    {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
-    },
-  ]
+//   let resume = [
+//     {
+//       company: 'Planetaria',
+//       title: 'CEO',
+//       logo: logoPlanetaria,
+//       start: '2019',
+//       end: {
+//         label: 'Present',
+//         dateTime: new Date().getFullYear(),
+//       },
+//     },
+//     {
+//       company: 'Airbnb',
+//       title: 'Product Designer',
+//       logo: logoAirbnb,
+//       start: '2014',
+//       end: '2019',
+//     },
+//     {
+//       company: 'Facebook',
+//       title: 'iOS Software Engineer',
+//       logo: logoFacebook,
+//       start: '2011',
+//       end: '2014',
+//     },
+//     {
+//       company: 'Starbucks',
+//       title: 'Shift Supervisor',
+//       logo: logoStarbucks,
+//       start: '2008',
+//       end: '2011',
+//     },
+//   ]
 
-  return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
-      </h2>
-      <ol className="mt-6 space-y-4">
-        {resume.map((role, roleIndex) => (
-          <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
-            </div>
-            <dl className="flex flex-auto flex-wrap gap-x-2">
-              <dt className="sr-only">Company</dt>
-              <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                {role.company}
-              </dd>
-              <dt className="sr-only">Role</dt>
-              <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-                {role.title}
-              </dd>
-              <dt className="sr-only">Date</dt>
-              <dd
-                className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                aria-label={`${role.start.label ?? role.start} until ${
-                  role.end.label ?? role.end
-                }`}
-              >
-                <time dateTime={role.start.dateTime ?? role.start}>
-                  {role.start.label ?? role.start}
-                </time>{' '}
-                <span aria-hidden="true">—</span>{' '}
-                <time dateTime={role.end.dateTime ?? role.end}>
-                  {role.end.label ?? role.end}
-                </time>
-              </dd>
-            </dl>
-          </li>
-        ))}
-      </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
-    </div>
-  )
-}
+//   return (
+//     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+//       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+//         <BriefcaseIcon className="h-6 w-6 flex-none" />
+//         <span className="ml-3">Work</span>
+//       </h2>
+//       <ol className="mt-6 space-y-4">
+//         {resume.map((role, roleIndex) => (
+//           <li key={roleIndex} className="flex gap-4">
+//             <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+//               <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+//             </div>
+//             <dl className="flex flex-auto flex-wrap gap-x-2">
+//               <dt className="sr-only">Company</dt>
+//               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+//                 {role.company}
+//               </dd>
+//               <dt className="sr-only">Role</dt>
+//               <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+//                 {role.title}
+//               </dd>
+//               <dt className="sr-only">Date</dt>
+//               <dd
+//                 className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+//                 aria-label={`${role.start.label ?? role.start} until ${
+//                   role.end.label ?? role.end
+//                 }`}
+//               >
+//                 <time dateTime={role.start.dateTime ?? role.start}>
+//                   {role.start.label ?? role.start}
+//                 </time>{' '}
+//                 <span aria-hidden="true">—</span>{' '}
+//                 <time dateTime={role.end.dateTime ?? role.end}>
+//                   {role.end.label ?? role.end}
+//                 </time>
+//               </dd>
+//             </dl>
+//           </li>
+//         ))}
+//       </ol>
+//       <Button href="#" variant="secondary" className="group mt-6 w-full">
+//         Download CV
+//         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+//       </Button>
+//     </div>
+//   )
+ }
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
@@ -250,45 +251,36 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
-        </title>
+        <title>Harvey Chirugie - Illustrator</title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="Bienvenue dans mon portfolio ! Je m'appelle Harvey, je suis une
+            artiste basée à Douala, spécialisée dans les illustrations et l'art
+            contemporain."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            I'm a Digital Illustrator
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            Bienvenue dans mon portfolio ! Je m'appelle Harvey, je suis une
+            artiste basée à Douala, spécialisée dans les illustrations et l'art
+            contemporain. Mon style est influencé par la nature, la culture
+            africaine, les émotions humaines et le monde, et j'aime travailler
+            avec une palette de couleurs vives et vibrantes.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink
+            {/* <SocialLink
               href="https://twitter.com"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
-            />
+            /> */}
             <SocialLink
-              href="https://instagram.com"
+              href="https://www.instagram.com/hd_illustration_237/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://linkedin.com"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
             />
           </div>
         </div>

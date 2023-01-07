@@ -4,46 +4,282 @@ import Head from 'next/head'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+
+import logo from '@/images/logos/logo.svg'
+import image1 from '@/images/photos/1.JPG'
+import image2 from '@/images/photos/4.PNG'
+import image3 from '@/images/photos/6.jpg'
+import image4 from '@/images/photos/7.jpg'
+import image5 from '@/images/photos/12.jpg'
+import image6 from '@/images/photos/8.jpg'
+import image7 from '@/images/photos/2.png'
+import image8 from '@/images/photos/3.png'
+import image9 from '@/images/photos/5.jpg'
+import image10 from '@/images/photos/9.jpg'
+import image11 from '@/images/photos/10.png'
+import image12 from '@/images/photos/11.png'
+import image13 from '@/images/photos/13.jpg'
+import image14 from '@/images/photos/14.jpg'
+import image15 from '@/images/photos/15.jpg'
+import image16 from '@/images/photos/16.jpg'
+import image17 from '@/images/photos/17.jpg'
+import image18 from '@/images/photos/18.jpg'
+import image19 from '@/images/photos/19.jpg'
+import image20 from '@/images/photos/20.jpg'
+import image21 from '@/images/photos/21.jpg'
+import image22 from '@/images/photos/22.jpg'
+import image23 from '@/images/photos/23.jpg'
+import image24 from '@/images/photos/24.jpg'
+import image25 from '@/images/photos/25.png'
+import image26 from '@/images/photos/26.png'
+import image27 from '@/images/photos/27.jpg'
+import image28 from '@/images/photos/28.png'
+import image29 from '@/images/photos/29.jpg'
+import image30 from '@/images/photos/30.jpg'
+
+
 
 const projects = [
   {
     name: 'Planetaria',
     description:
       'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    link: {
+      href: 'https://www.instagram.com/p/CljZQW7uYkD/',
+      label: 'Chirugien_237',
+    },
+    logo: logo,
+    image: image1,
   },
   {
     name: 'Animaginary',
     description:
       'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    link: { href: 'https://www.instagram.com/p/Ci21DGmu2ss/', label: '' },
+    logo: logo,
+    image: image2,
   },
   {
     name: 'HelioStream',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+    link: { href: 'https://www.instagram.com/p/B7L2SNrl3Vd/', label: '' },
+    logo: logo,
+    image: image3,
   },
   {
     name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image4,
   },
   {
     name: 'OpenShuttle',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image5,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image6,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image7,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image8,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image9,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image10,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image11,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image12,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image13,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image14,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image15,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image16,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image17,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image18,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image19,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image20,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image21,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image22,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image23,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image24,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image25,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image26,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image27,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image28,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image29,
+  },
+  {
+    name: 'OpenShuttle',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/hd_illustration_237/', label: '' },
+    logo: logo,
+    image: image30,
   },
 ]
 
@@ -87,12 +323,14 @@ export default function Projects() {
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <Card.Link href={project.link.href}></Card.Link>
               </h2>
-              <Card.Description>{project.description}</Card.Description>
+              <Image
+                src={project.image}
+                className= "h-5/6 w-30"
+              />
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-                <LinkIcon className="h-6 w-6 flex-none" />
-                <span className="ml-2">{project.link.label}</span>
+             
               </p>
             </Card>
           ))}

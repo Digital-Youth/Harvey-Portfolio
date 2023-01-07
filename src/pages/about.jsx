@@ -10,7 +10,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/portrait.PNG'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Harvey Essaka</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content=" Je m'appelle Harvey Essaka. Je vis à Douala, ville où je fais vivre mon art"
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,58 +61,49 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
+              Je m'appelle Harvey Essaka. Je vis à Douala, ville où je fais
+              vivre mon art
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                Né à Douala en 2001, j'ai grandi dans une famille passionnée
+                d'art et de culture. Dès mon plus jeune âge, j'ai été attiré par
+                le dessin et la création, et j'ai passé de nombreuses heures à
+                m'exprimer sur papier. 
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
-              </p>
-              <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
-              </p>
-              <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+                Bien que j'ai toujours été intéressé par
+                l'art, je n'ai jamais suivi de formation spécifique et je me suis
+                formé en autodidacte. Dès l'adolescence, J'ai commencé à
+                publier mes oeuvres sur internet d'où instagram, et j'ai su rapidement gagné en
+                popularité grâce à mon style original et coloré. Et je me suis
+                ensuite professionnalisé et a commencé à travailler pour des
+                clients divers, en réalisant des illustrations pour des
+                magazines, des livres, des affiches et des portraits. Aujourd'hui, je suis assez
+                reconnu comme l'un des illustrateurs les plus talentueux de la
+                scène artistique de ma ville. Mon travail est apprécié pour mon
+                univers imaginatif, poétique et comptenporrain, qui parle aux enfants comme aux
+                adultes.
+          
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
-                Follow on Twitter
-              </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink
+                href="https://www.instagram.com/hd_illustration_237/"
+                icon={InstagramIcon}
+                className="mt-4"
+              >
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-                Follow on GitHub
-              </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-                Follow on LinkedIn
-              </SocialLink>
+
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:harveydjombi16@icloud.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                harveydjombi16@icloud.com
               </SocialLink>
             </ul>
           </div>

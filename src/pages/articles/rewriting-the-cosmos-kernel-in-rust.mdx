@@ -1,96 +1,53 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
-
+import Image from 'next/image'
+import artTechnology from './artTech.png'
 export const meta = {
-  author: 'Adam Wathan',
-  date: '2022-07-14',
-  title: 'Rewriting the cosmOS kernel in Rust',
+  author: 'Harvey Essaka',
+  date: '2022-01-05',
+  title: "L’art et la technologie",
   description:
-    'When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.',
+    "Depuis de nombreuses années, les arts et les technologies ont été en interaction constante, s'influençant mutuellement et créant de nouvelles formes d'expression et de création",
 }
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language with a lot of benefits, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.
+Depuis de nombreuses années, les arts et les technologies ont été en interaction constante,
+ s'influençant mutuellement et créant de nouvelles formes d'expression et de création. 
+ Aujourd'hui, l'utilisation des technologies en art est devenue courante et a ouvert de 
+ nouvelles possibilités pour les artistes de tous horizons.
 
-```rust
-use ferris_says::say;
-use std::io::{stdout, BufWriter};
 
-fn main() {
-    let stdout = stdout();
-    let message = String::from("Hello fellow hackers");
-    let width = message.chars().count();
+<Image src={artTechnology} alt="" />
 
-    let mut writer = BufWriter::new(stdout.lock());
-    say(message.as_bytes(), width, &mut writer).unwrap();
-}
-```
 
-I derive a large amount of my self-worth from whether or not Hacker News is impressed with the work I'm doing, so when I realized this, I cancelled all of our existing projects and started migrating everything to Rust immediately.
+Les technologies ont permis aux artistes de développer de nouvelles techniques de création,
+ comme la peinture numérique, la sculpture assistée par ordinateur, le dessin animé, etc.
+  Elles ont également donné accès à de nouvelles matières et outils, comme les imprimantes 3D ou
+   les logiciels de montage vidéo. Les technologies ont ainsi ouvert de nouvelles voies de créativité
+    et de liberté pour les artistes.
 
-## Sermone fata
+De plus, les technologies ont facilité la diffusion et la mise en valeur des oeuvres d'art.
+Aujourd'hui, il est possible de présenter son travail en ligne, de le partager sur les réseaux sociaux,
+de le vendre en ligne, etc. Cela a permis aux artistes de se faire connaître plus facilement et de toucher un public plus large,
+indépendamment de leur localisation géographique.
 
-Lorem markdownum, bracchia in redibam! Terque unda puppi nec, linguae posterior
-in utraque respicere candidus Mimasque formae; quae conantem cervice. Parcite
-variatus, redolentia adeunt. Tyrioque dies, naufraga sua adit partibus celanda
-torquere temptata, erit maneat et ramos, [iam](#) ait dominari
-potitus! Tibi litora matremque fumantia condi radicibus opusque.
 
-Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur
-levitate quas ubi arcum ripas oculos abest. Adest [commissaque
-victae](#) in gemitus nectareis ire diva
-dotibus ora, et findi huic invenit; fatis? Fractaque dare superinposita
-nimiumque simulatoremque sanguine, at voce aestibus diu! Quid veterum hausit tu
-nil utinam paternos ima, commentaque.
 
-```c
-exbibyte_wins = gigahertz(3);
-grayscaleUtilityClient = control_uat;
-pcmciaHibernate = oop_virus_console(text_mountain);
-if (stateWaisFirewire >= -2) {
-    jfs = 647065 / ldapVrml(tutorialRestore, 85);
-    metal_runtime_parse = roomComputingResolution - toolbarUpload +
-            ipx_nvram_open;
-} else {
-    maximizeSidebar *= suffix_url(flatbed + 2, requirements_encoding_node +
-            only_qbe_media, minicomputer);
-}
-```
+En effet, les technologies ont souvent été un sujet de création pour les artistes, 
+qui ont exploré les enjeux et les répercussions de leur utilisation. 
+Les oeuvres d'art qui traitent des technologies peuvent aborder des thèmes comme la surveillance, 
+la vie privée, la dépendance, la robotisation, etc. Elles peuvent également mettre en lumière les
+ avancées technologiques et leur impact sur notre vie quotidienne.
 
-Aere repetiti cognataque natus. Habebat vela solutis saepe munus nondum adhuc
-oscula nomina pignora corpus deserat.
+Dans l'art contemporain, on peut trouver de nombreux exemples de liens entre les arts et les technologies, 
+avec des artistes qui utilisent ces dernières comme support, thème ou moyen de diffusion. 
+Par exemple, l'artiste américain Cory Arcangel utilise des logiciels et des codes informatiques 
+pour créer des oeuvres numériques colorées et surprenantes. 
+L'artiste japonais Takashi Murakami a utilisé l'animation et les réseaux sociaux pour diffuser son travail et interagir avec son public.
+ L'artiste sud-africain Zanele Muholi a utilisé la photographie et la vidéo pour documenter et 
+ dénoncer les discriminations subies par les personnes LGBTQ+ en Afrique du Sud.
 
-## Lethaei Pindumve me quae dinumerat Pavor
-
-Idem se saxa fata pollentibus geminos; quos pedibus. Est urnis Herses omnes nec
-divite: et ille illa furit sim verbis Cyllenius.
-
-1. Captus inpleverunt collo
-2. Nec nam placebant
-3. Siquos vulgus
-4. Dictis carissime fugae
-5. A tacitos nulla viginti
-
-Ungues fistula annoso, ille addit linoque motatque uberior verso
-[rubuerunt](#) confine desuetaque. _Sanguine_ anteit
-emerguntque expugnacior est pennas iniqui ecce **haeret** genus: peiora imagine
-fossas Cephisos formosa! Refugitque amata [refelli](#)
-supplex. Summa brevis vetuere tenebas, hostes vetantis, suppressit, arreptum
-regna. Postquam conpescit iuvenis habet corpus, et erratica, perdere, tot mota
-ars talis.
-
-```c
-digital.webcam_dual_frequency = webmasterMms;
-if (5 + language_standalone_google) {
-    cc_inbox_layout *= file_character;
-    task += p;
-    lockUnicode += enterprise_monochrome(tokenFunctionPersonal, keyVirtual,
-            adf);
-}
-windows_binary_esports(87734, array(restoreRomTopology, adRaw(407314),
-        dongleBashThumbnail), interpreter);
-```
-
-Sit volat naturam; motu Cancri. Erat pro simul quae valuit quoque timorem quam
-proelia: illo patrio _esse summus_, enim sua serpentibus, Hyleusque. Est coniuge
-recuso; refert Coroniden ignotos manat, adfectu.
+En conclusion, les arts et les technologies sont intimement liés et se nourrissent mutuellement. 
+Les technologies ont ouvert de nouvelles possibilités de création et de diffusion pour les artistes, 
+et ont influencé l'art de manière thématique. Aujourd'hui, l'utilisation des technologies en art est 
+devenue courante et permet aux artistes de s'exprimer de manière originale et innovante.

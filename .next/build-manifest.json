@@ -35,10 +35,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
     ],
-    "/uses": [
+    "/articles": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/uses.js"
+      "static/chunks/pages/articles.js"
+    ],
+    "/articles/rewriting-the-cosmos-kernel-in-rust": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/articles/rewriting-the-cosmos-kernel-in-rust.js"
+    ],
+    "/projects": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects.js"
     ]
   },
   "ampFirstPages": []
