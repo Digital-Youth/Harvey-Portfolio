@@ -298,15 +298,15 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Harvey Essaka</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="Un ensemble de tout mes projets réalisés"
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="Un ensemble de tout mes projets réalisés"
+        intro="Pour moi l'art est un moyen à moi de m'exprimer et également un moyen de vous exprimer"
       >
         <ul
           role="list"
@@ -325,13 +325,8 @@ export default function Projects() {
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
                 <Card.Link href={project.link.href}></Card.Link>
               </h2>
-              <Image
-                src={project.image}
-                className= "h-5/6 w-30"
-              />
-              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-             
-              </p>
+              <Image src={project.image} className="w-30 h-5/6" />
+              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200"></p>
             </Card>
           ))}
         </ul>
