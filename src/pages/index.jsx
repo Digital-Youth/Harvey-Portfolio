@@ -7,21 +7,14 @@ import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
-  TwitterIcon,
   InstagramIcon,
-  GitHubIcon,
-  LinkedInIcon,
+
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/1.JPG'
 import image2 from '@/images/photos/4.PNG'
 import image3 from '@/images/photos/6.jpg'
 import image4 from '@/images/photos/7.jpg'
 import image5 from '@/images/photos/12.jpg'
-import image6 from '@/images/photos/8.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -272,11 +265,6 @@ export default function Home({ articles }) {
             avec une palette de couleurs vives et vibrantes.
           </p>
           <div className="mt-6 flex gap-6">
-            {/* <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            /> */}
             <SocialLink
               href="https://www.instagram.com/hd_illustration_237/"
               aria-label="Follow on Instagram"

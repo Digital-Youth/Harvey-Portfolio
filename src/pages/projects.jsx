@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
+
 
 import logo from '@/images/logos/logo.svg'
 import image1 from '@/images/photos/1.JPG'
